@@ -7,3 +7,11 @@ Content-Type: application/json
       "price": 1299.99, 
       "image": "https://img.freepik.com/fotos-premium/buffet-de-comida-festa-de-comida-no-restaurante-mini-canapes-lanches-e-aperitivos-feito-por-iainteligencia-artificial_41969-11904.jpg"
 }
+
+###
+
+GET http://localhost:3000/api/services
+
+###
+
+GET http://localhost:3000/api/services/66b2633ed4c5908ce0578167
