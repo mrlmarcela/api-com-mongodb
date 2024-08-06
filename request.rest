@@ -1,0 +1,9 @@
+POST http://localhost:3000/api/services
+Content-Type: application/json
+
+{
+      "name": "Buffet", 
+      "description": "Jantar completo para até 100 convidados", 
+      "price": 1299.99, 
+      "image": "https://img.freepik.com/fotos-premium/buffet-de-comida-festa-de-comida-no-restaurante-mini-canapes-lanches-e-aperitivos-feito-por-iainteligencia-artificial_41969-11904.jpg"
+}
