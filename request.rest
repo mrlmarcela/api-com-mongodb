@@ -18,4 +18,16 @@ GET http://localhost:3000/api/services/66b2633ed4c5908ce0578167
 
 ###
 
-DELETE http://localhost:3000/api/services/66b2633ed4c5908ce057816
+DELETE http://localhost:3000/api/services/66b2633ed4c5908ce0578167
+
+###
+
+PUT http://localhost:3000/api/services/66b269ca55ac9fd043325f32
+Content-Type: application/json
+
+{
+      "name": "Buffet Completo", 
+      "description": "Jantar completo para até 200 convidados", 
+      "price": 1599.99, 
+      "image": "https://img.freepik.com/fotos-premium/buffet-de-comida-festa-de-comida-no-restaurante-mini-canapes-lanches-e-aperitivos-feito-por-iainteligencia-artificial_41969-11904.jpg"
+}
